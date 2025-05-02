@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Input from "../Custom-Components/Input";
 import { useNavigate } from "react-router-dom";
-import { View, Text } from "tamagui";
+import { View } from "tamagui";
 import mailIcon from "../assets/email.png";
 import passIcon from "../assets/password.png";
 import show from "../assets/show.png";

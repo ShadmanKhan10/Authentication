@@ -9,7 +9,6 @@ function App() {
   return (
     <TamaguiProvider config={config}>
       <Theme name="light">
-        {/* You can switch between light or dark theme */}
         <BrowserRouter>
           <Routes>
             <Route path="/login" element={<Login />} />
